@@ -1,0 +1,19 @@
+{
+  "name": "Berntek | Software & Web Design",
+
+  "short_name": "Berntek",
+
+  "icons": [{
+
+    "src": "img/logo_128x128.png",
+
+    "type": "image/png",
+
+    "sizes": "128x128"
+
+  }],
+
+  "display": "standalone",
+
+  "background_color": "#ffffff"
+}
