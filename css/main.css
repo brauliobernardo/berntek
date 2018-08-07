@@ -8723,6 +8723,10 @@ label.panel-block:hover {
   filter: grayscale(0);
 }
 
+.border-dark {
+  border: 1px solid #333333;
+}
+
 ::-moz-selection {
   color: #ffffff;
   background: #333333;
@@ -8731,6 +8735,18 @@ label.panel-block:hover {
 ::selection {
   color: #ffffff;
   background: #333333;
+}
+
+.my-1 {
+  margin: 1rem auto;
+}
+
+.my-1 {
+  margin: 2rem auto;
+}
+
+.pa-1 {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=css/main.css.map */
