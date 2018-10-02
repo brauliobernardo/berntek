@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +9,7 @@
     <meta name="author" content="Berntek" />
     <meta name="description" content="Desenvolvemos software e criamos websites modernos" />
     <meta name="theme-color" content="#007BA7" />
-    <link rel="icon" sizes="128x128" href="img/logo_128x128.png" />
-    <link rel="icon" type="image/png" href="img/logo_128x128.png" />
+    <link rel="shortcut icon" type="image/png" href="img/logo/logo_16x16.png"/>
     <link rel="manifest" href="manifest.json" />
     <meta property="og:image" content="img/logo-banner.png" />
     <meta property="og:image:type" content="image/png" />
@@ -20,6 +19,18 @@
     <meta property="og:description" content="Desenvolvemos software e criamos websites modernos" />
     <meta property="og:locale" content="pt" />
     <meta property="og:type" content="website" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/logo/logo_57x57.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/logo/logo_76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/logo/logo_120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/logo/logo_144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/logo/logo_152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/logo/logo_180x180.png">
+    <meta name="apple-mobile-web-app-title" content="Berntek">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-TileColor" content="#007BA7" />
+    <meta name="msapplication-TileImage" content="img/logo/logo_144x144.png" />
 </head>
 <body>
     <!-- Navigation -->
@@ -247,7 +258,7 @@
             var addStylesNode = document.getElementById("deferred-styles");
             var replacement = document.createElement("div");
             replacement.innerHTML = addStylesNode.textContent;
-            document.body.appendChild(replacement)
+            document.body.appendChild(replacement);
             addStylesNode.parentElement.removeChild(addStylesNode);
         };
         var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
